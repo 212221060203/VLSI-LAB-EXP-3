@@ -22,11 +22,6 @@ STEP:7 compare the output with truth table. Logic Diagram 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
-**4 Bit Multiplier**
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
-
 **Verilog code**
 ## 2 bit multiplier:
 module ha(a,b,sum,c);
@@ -56,6 +51,13 @@ ha ha1(a[0]&b[1],a[1]&b[0],c[1],w1);
 ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
+
+## 2 bit multiplier:
+![image](https://github.com/212221060203/VLSI-LAB-EXP-3/assets/166364913/9b890bd0-3773-4423-9899-7c72ce00b42e)
+
+**4 Bit Multiplier**
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
 ## 4 bit multipler:
 module ha(a,b,c,s);
@@ -126,8 +128,6 @@ fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 
 endmodule Output Waveform
 
-## 2 bit multiplier:
-![image](https://github.com/212221060203/VLSI-LAB-EXP-3/assets/166364913/9b890bd0-3773-4423-9899-7c72ce00b42e)
 ## 4 bit multiplier:
 ![image](https://github.com/212221060203/VLSI-LAB-EXP-3/assets/166364913/81945ae6-86c7-4f92-b115-de8f77480aa8)
 ## Result
